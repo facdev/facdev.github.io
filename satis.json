@@ -1,0 +1,10 @@
+{
+    "name": "My Repository",
+    "homepage": "http://facdev.github.io",
+    "repositories": [
+        { "type": "vcs", "url": "http://github.com/faclib/Slim" },
+        { "type": "vcs", "url": "http://github.com/faclib/Smarty" },
+        { "type": "vcs", "url": "http://github.com/facdev/php-utils" }
+    ],
+    "require-all": true
+}
