@@ -4,7 +4,31 @@
     "repositories": [
         { "type": "vcs", "url": "http://github.com/faclib/Slim" },
         { "type": "vcs", "url": "http://github.com/faclib/Smarty" },
-        { "type": "vcs", "url": "http://github.com/facdev/php-utils" }
+        { "type": "vcs", "url": "http://github.com/facdev/php-utils" },
+        { 
+            "type": "package", 
+            "package": {
+                "name": "faclib/less",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/cloudhead/less.js.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        { 
+            "type": "package", 
+            "package": {
+                "name": "faclib/bootstrap",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/twitter/bootstrap.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
     ],
     "require-all": true
 }
