@@ -1,10 +1,17 @@
 {
     "packages": {
-        "vendor/package-name": {
-            "dev-master": { @composer.json },
-            "1.0.x-dev": { @composer.json },
-            "0.0.1": { @composer.json },
-            "1.0.0": { @composer.json }
-        }
+    {
+                "name": "smarty/smarty",
+                "version": "3.1.7",
+                "dist": {
+                    "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "http://smarty-php.googlecode.com/svn/",
+                    "type": "svn",
+                    "reference": "tags/Smarty_3_1_7/distribution/"
+                }
+            }
     }
 }
