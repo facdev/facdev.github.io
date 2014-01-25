@@ -1,6 +1,6 @@
 {
-    "packages": {
-    {
+    "packages": []
+        {
                 "name": "smarty/smarty",
                 "version": "3.1.7",
                 "dist": {
@@ -12,6 +12,6 @@
                     "type": "svn",
                     "reference": "tags/Smarty_3_1_7/distribution/"
                 }
-            }
-    }
+        }
+    ]
 }
